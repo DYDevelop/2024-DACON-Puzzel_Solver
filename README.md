@@ -16,9 +16,26 @@
 - Ram 32GB
 - RTX 3090 24GB
 - Windows WSL
+- Batch Size == 64 (with AMP)
+- Python 3.8.18
+- torch.__version__ == 2.1.2
+- Cuda compilation tools, release 11.5
 
 ## 주요 설명
 - 대학-대항전_퍼즐-이미지-AI-경진대회.pdf 참조
+1. Optimizer 변경 + LR scheduler 추가
+- 기존 Adam에서 AdamW와 CosineAnnealingLR 조합을 사용
+
+2. 다양한 Data Augmentation 적용
+- Random Photometric Distort 
+- Random Erasing
+- Random Vertical Flip
+- Random Horizontal Flip
+- Random Rotate 90, 180, 270
+- Random Cutout (Before Shuffle)
+- Test Time Augment (Flip)
+
+3. 여러개의 Pred 값들 Voting Ensemble 진행
 
 ## 모델 성능 순위표
 ![image](https://github.com/DYDevelop/DACON-Competitions/assets/55197580/a1cfbb6c-4d91-4f74-b2a2-9122e6c3416a)
