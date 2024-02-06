@@ -19,7 +19,7 @@
 - Batch Size == 64 (with AMP)
 - Python 3.8.18
 - torch.__version__ == 2.1.2
-- Cuda compilation tools, release 11.5
+- Cuda compilation tools release 11.5
 
 ## 주요 설명
 [대학-대항전_퍼즐-이미지-AI-경진대회.pdf 참조]
