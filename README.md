@@ -22,7 +22,7 @@
 - Cuda compilation tools, release 11.5
 
 ## 주요 설명
-- 대학-대항전_퍼즐-이미지-AI-경진대회.pdf 참조
+[대학-대항전_퍼즐-이미지-AI-경진대회.pdf 참조]
 1. Optimizer 변경 + LR scheduler 추가
 - 기존 Adam에서 AdamW와 CosineAnnealingLR 조합을 사용
 
