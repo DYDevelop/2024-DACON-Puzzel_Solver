@@ -9,7 +9,7 @@
 ## Member
 | 이름       | 학년 | 전공          | 역할                          |
 |-----------------|-----|-----------------------|------------------------------------|
-| 김동영       | 4    | 지능기전공학부 무인이동체공학전공    |  Jigsawformer 모델 수정, Data Augmentation, Model CSV Ensemble |
+| 김동영       | 4    | 지능기전공학부 무인이동체공학전공    |  Jigsawformer 모델 수정, Data Augmentation, Model Ensemble |
 
 ## 개발 환경
 - Ryzen 5600x
